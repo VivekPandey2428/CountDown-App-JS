@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@200&family=Poppins:wght@300;400&display=swap');
+*{
+    box-sizing:border-box;
+    font-family:'poppins','Big Shoulders Display', 'cursive';
+    margin:0;
+    padding:0;
+    color:white;
+
+}
+body{
+    min-height: 100vh;
+    min-width:100wh;
+    background: conic-gradient(
+    rgb(0, 0, 0,0.9),
+    rgb(24, 24, 24),
+    rgba(0, 0, 0,0.9)
+);
+}
+.container{
+    width:100%;
+    height:auto;
+    text-align: center;
+    margin:5rem auto;
+}
+.header{
+    font-weight: normal;
+    font-size:4rem;
+    letter-spacing: 10px;
+}
+.time-container{
+    display: flex;
+    justify-content: center;
+}
+.blocks{
+    height:150px;
+    width:150px;
+    background: conic-gradient(
+    rgb(0, 0, 0,0.9),
+    rgb(24, 24, 24),
+    rgba(0, 0, 0,0.9)
+);
+    margin:50px;
+    border:2px solid black;
+    box-shadow: 0 0 5px lightgrey;
+}
+.dots{
+    margin-top:50px;
+    font-size:5rem;
+}
+.desc{
+    margin-top:60px;
+    color:orange;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
+.center{
+    margin-top:50px;
+    font-size:2rem;
+    letter-spacing: 10px;
+}
